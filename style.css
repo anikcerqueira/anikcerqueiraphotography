@@ -785,15 +785,10 @@ font-size: 1rem;
     margin: 10px 0;
 }
 
-.cd-section {
-    background-size: cover;
-    background-position: center;
-margin: 0;
-  }
-  
+ 
   .cd-section--bg-fixed {
-   height: 100vh;
-    background-attachment: fixed;
+   height: auto;
+    background-attachment:local;
   }
   
   /* backgrounds */

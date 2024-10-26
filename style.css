@@ -763,15 +763,16 @@ font-size: 1rem;
 
 .freatured-tittle {
     font-size: 1.2rem; 
-    padding: 10px; 
+    padding: 10px 0; 
 }
 
 .freatured-content p {
     font-size: 0.8rem
+    padding: 10px; 
 }
 
 .freatured-btn a {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .content li {

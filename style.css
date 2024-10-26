@@ -784,13 +784,17 @@ font-size: 1rem;
 }
 
 .cd-section {
-    background-size: contain;
+    background-size:auto;
     background-position: center;
   }
   
   .cd-section--bg-fixed {
-   height: 100vw;
+   height: auto;
     background-attachment: fixed;
+  }
+
+  .cd-section:nth-child(1) {
+width: fit-content;
   }
 
 }

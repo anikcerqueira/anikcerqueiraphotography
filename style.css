@@ -131,7 +131,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url('./assets/images/background.jpg');
     background-size: cover;
@@ -448,9 +448,12 @@ margin: 0;
   
   .cd-section:nth-child(3) {
    background-image: url("./assets/images/background3.jpg");
+   background-size: cover;
   }
 
   .freatured {
+    width: 100vw;
+    min-width: 400px;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -689,12 +692,17 @@ width: 90%;
 
 .slide {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-
+.snip1574 { 
+    display: flex;
+    flex-direction: column;
+margin: 10px 0;
 }
 
-
+}
 
 /* Telas menores de 600px */
 

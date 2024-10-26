@@ -764,9 +764,8 @@ font-size: 1rem;
     font-size: 0.8rem;
 }
 
-.cd-section {
-    background-size: cover;
-    max-width: 600px;
+.cd-section--bg-fixed {
+    background-attachment: none;
 }
 
 .content li {

@@ -676,9 +676,6 @@ width: 90%;
     padding: 100px 50px; 
 }
 
-.cd-section--bg-fixed {
-    height: auto; 
-}
 
 .slide {
     flex-direction: column;
@@ -785,5 +782,15 @@ font-size: 1rem;
     gap: 10px;
     margin: 10px 0;
 }
+
+.cd-section {
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .cd-section--bg-fixed {
+   height: 100vw;
+    background-attachment: fixed;
+  }
 
 }

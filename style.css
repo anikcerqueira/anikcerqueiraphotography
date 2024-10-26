@@ -137,7 +137,7 @@ header {
     background-image: url('./assets/images/background.jpg');
     background-size: cover;
     background-position: center;
-    margin-right: -10px;
+    display: block;
 }
 
 
@@ -709,6 +709,7 @@ margin: 10px 0;
 /* Telas menores de 600px */
 
 @media(max-width: 600px) {
+
 
     .dropdown_menu {
         left: 1rem;

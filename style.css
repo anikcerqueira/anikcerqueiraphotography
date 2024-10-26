@@ -785,6 +785,21 @@ font-size: 1rem;
     margin: 10px 0;
 }
 
-
+.cd-section {
+    background-size: cover;
+    background-position: center;
+margin: 0;
+  }
+  
+  .cd-section--bg-fixed {
+   height: 100vh;
+    background-attachment: fixed;
+  }
+  
+  /* backgrounds */
+  .cd-section:nth-child(1) {
+    background-image: url("./assets/images/background2.jpg");
+    background-size: cover;
+  }
 
 }

@@ -785,7 +785,12 @@ font-size: 1rem;
     margin: 10px 0;
 }
 
-.cd-section {
-max-width: 600px; 
+.cd-section:nth-child(1) {
+    background-image: url("./assets/images/background2.jpg");
+ height: auto;
+ background-size: contain;
+ background-repeat: no-repeat;
+    background-position: center;
 }
+
 }

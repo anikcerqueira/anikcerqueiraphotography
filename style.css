@@ -675,6 +675,7 @@ width: 90%;
 
 .freatured {
     height: 500px; 
+    padding: 10px; 
 }
 
 
@@ -752,6 +753,9 @@ font-size: 1rem;
     max-width: 350px;
 }
 
+.freatured {
+    padding: 50px 0;
+}
 
 .freatured-tittle {
     font-size: 1.1rem; 
@@ -786,14 +790,16 @@ font-size: 1rem;
 }
 
  
-  /* .cd-section--bg-fixed {
-   height: auto;
-    background-attachment:local;
+  .cd-section--bg-fixed {
+    height: 500px;
+    background-attachment:fixed;
   }
   
+  /* backgrounds */
   .cd-section:nth-child(1) {
+    height: 500px;
     background-image: url("./assets/images/background2.jpg");
     background-size: cover;
-  } */
+  }
 
 }

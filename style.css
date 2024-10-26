@@ -34,7 +34,7 @@ font-weight: 400;
   overflow: hidden;
   margin: 0 10px;
   min-width: 300px;
-  max-width: 400px;
+  max-width: 490px;
   width: 100%;
   background-color: #000000;
   color: #ffffff;
@@ -543,6 +543,10 @@ width: 600px;
 @media(max-width: 992px)  {
 
     header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
 height: 600px;
 width: 100%;
     }
@@ -685,6 +689,7 @@ width: 90%;
     background-position: center;
     height: auto; 
     padding: 100px 30px;
+    max-width: 100%;
 }
  
 .cd-section:nth-child(1) {

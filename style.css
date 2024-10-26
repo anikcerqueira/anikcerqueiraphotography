@@ -673,9 +673,17 @@ width: 90%;
     margin: 10px 20px;
 }
 
+
 .freatured {
+    background-image: url(./assets/images/background2.jpg);
+    background-size: cover;
+    background-position: center;
     height: auto; 
-    padding: 100px 50px; 
+    padding: 100px 30px;
+}
+ 
+.cd-section:nth-child(1) {
+    background-image: none; 
 }
 
 
@@ -785,14 +793,5 @@ font-size: 1rem;
     margin: 10px 0;
 }
 
-.freatured {
-    background-image: url(./assets/images/background2.jpg);
-    background-size: cover;
-    background-position: center;
-}
- 
-.cd-section:nth-child(1) {
-    background-image: none; 
-}
 
 }

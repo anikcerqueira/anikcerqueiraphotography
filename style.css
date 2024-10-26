@@ -435,6 +435,7 @@ margin: 0;
   /* backgrounds */
   .cd-section:nth-child(1) {
     background-image: url("./assets/images/background2.jpg");
+    background-size: cover;
   }
 
   
@@ -739,11 +740,7 @@ width: 90%;
     #prices p {
         width: 300px;
     }
-    .cd-section--bg-fixed {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
+
 
 .price-box {
     width: 350px;
@@ -767,8 +764,8 @@ font-size: 1rem;
 }
 
 .freatured-content p {
-    font-size: 0.8rem
-    padding: 10px; 
+    font-size: 0.8rem;
+    padding: 10px;
 }
 
 .freatured-btn a {

@@ -34,9 +34,5 @@ content.style.maxHeight = content.scrollHeight + "px";
 }
 
 
-$(".hover").mouseleave(
-    function () {
-      $(this).removeClass("hover");
-    }
-  );
+
   

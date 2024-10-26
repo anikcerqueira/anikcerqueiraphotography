@@ -626,9 +626,11 @@ height: 600px;
 
 .cd-section {
     background-size: cover;
-background-position: 20%;
+background-position: center;
 height: auto;
 }
+
+
 
 #prices {
     height: auto;
@@ -784,17 +786,6 @@ font-size: 1rem;
 }
 
 .cd-section {
-    background-size:auto;
-    background-position: center;
-  }
-  
-  .cd-section--bg-fixed {
-   height: auto;
-    background-attachment: fixed;
-  }
-
-  .cd-section:nth-child(1) {
-width: fit-content;
-  }
-
+max-width: 600px; 
+}
 }
